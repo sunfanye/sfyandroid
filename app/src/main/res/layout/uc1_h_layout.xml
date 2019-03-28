@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UC1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="水平布局"
+        android:layout_gravity="center"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3"
+
+    >
+    <Button
+        android:id="@+id/uc1_h_button"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text="水平布局"
+        android:layout_gravity="center"
+
+
+        />
+    <Button
+        android:id="@+id/uc1_v_button"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text="垂直布局"
+        android:layout_gravity="center"
+
+        />
+    <Button
+        android:id="@+id/uc1_l_button"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text="靠左对齐"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
+    <Button
+        android:id="@+id/uc1_back"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:text="返回"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
